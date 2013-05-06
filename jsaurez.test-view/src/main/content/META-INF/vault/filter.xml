@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/jsaurez.test">
+        <exclude pattern="/apps/jsaurez.test/install.*"/>
+        <exclude pattern="/apps/jsaurez.test/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/jsaurez.test"/>
+	<filter root="/etc/designs/jsaurez.test">
+        <exclude pattern="/etc/designs/jsaurez.test/jcr:content.*"/>
+    </filter>
+</workspaceFilter>

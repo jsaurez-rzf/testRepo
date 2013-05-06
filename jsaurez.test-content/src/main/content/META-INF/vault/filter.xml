@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/content/jsaurez.test"/>
+    <filter root="/content/dam/jsaurez.test">
+        <!-- exclude pattern=".*/renditions.*"/ -->
+    </filter>
+    <filter root="/etc/designs/jsaurez.test/jcr:content">
+        <include pattern="/etc/designs/jsaurez.test/jcr:content(/.*)+"/>
+    </filter>
+</workspaceFilter>
